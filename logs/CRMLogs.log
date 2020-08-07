@@ -1,0 +1,21 @@
+08-03-2020 20:19:08 TestUtil.java INFO  [main] 18 - Executing the test method class com.qa.freecrm.util.TestUtil
+08-03-2020 20:19:08 TestUtil.java INFO  [main] 18 - Executing the test method class com.qa.freecrm.util.TestUtil
+08-03-2020 20:19:08 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-03-2020 20:19:14 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-03-2020 20:19:17 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-03-2020 20:19:17 TestUtil.java INFO  [main] 18 - Executing the test method class com.qa.freecrm.util.TestUtil
+08-03-2020 20:19:30 TC_VerifyLoginTest.java INFO  [main] 34 - The login page title is verified --->HubSpot Login
+08-03-2020 20:19:31 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-03-2020 20:19:33 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-03-2020 20:20:34 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-03-2020 20:20:40 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-03-2020 20:20:42 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-03-2020 20:20:52 LoginPage.java INFO  [main] 57 - Email address field is present on the Login page
+08-03-2020 20:20:52 LoginPage.java INFO  [main] 63 - Password field is present on the Login page
+08-03-2020 20:20:52 LoginPage.java INFO  [main] 69 - Login button is present on the Login page
+08-03-2020 20:20:53 LoginPage.java INFO  [main] 74 - Sign up link is present on the Login page
+08-03-2020 20:20:53 LoginPage.java INFO  [main] 84 - Forgot Mypassword link is present on the Login page
+08-03-2020 20:20:53 LoginPage.java INFO  [main] 79 - Show password link is present on the Login page
+08-03-2020 20:20:53 TC_VerifyLoginTest.java INFO  [main] 34 - The login page title is verified --->HubSpot Login
+08-03-2020 20:20:53 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-03-2020 20:20:55 LoginPage.java INFO  [main] 45 - Logged in successfully
