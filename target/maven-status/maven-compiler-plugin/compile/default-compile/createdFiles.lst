@@ -1,0 +1,8 @@
+com\qa\freecrm\util\ElementUtil.class
+com\qa\freecrm\pages\ContactPage.class
+com\qa\freecrm\base\BaseTest.class
+com\qa\freecrm\base\BasePage.class
+com\qa\freecrm\pages\LoginPage.class
+com\qa\freecrm\util\TestUtil.class
+com\qa\freecrm\pages\HomePage.class
+com\qa\freecrm\util\Constants.class
