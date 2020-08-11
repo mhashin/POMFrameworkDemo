@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="smokeTest" verbose="2">
+
+<listeners>
+<listener class-name="com.qa.freecrm.listeners.TestAllureListener"></listener>
+</listeners>
   <test name="Login Test">
     <classes>
       <class name="com.qa.freecrm.tests.TC_VerifyLoginTest"/>

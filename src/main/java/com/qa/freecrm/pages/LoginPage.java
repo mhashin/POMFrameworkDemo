@@ -54,34 +54,34 @@ public class LoginPage extends BasePage {
 	
 	public boolean emailaddressIsDisplayed() {
 		elementUtil.waitForElementToBeVisible(txtEmailaddress);
-		testUtil.log.info("Email address field is present on the Login page");
+		testUtil.log.info("Email address field ---> is present on the Login page");
 		return elementUtil.isElementPresent(txtEmailaddress);
 	}
 	
 	public boolean passwordIsDisplayed() {
 		elementUtil.waitForElementToBeVisible(txtPassword);
-		testUtil.log.info("Password field is present on the Login page");
+		testUtil.log.info("Password field ---> is present on the Login page");
 		return elementUtil.isElementPresent(txtPassword);
 	}
 	
 	public boolean loginIsDisplayed() {
 		elementUtil.waitForElementToBeVisible(btnLogin);
-		testUtil.log.info("Login button is present on the Login page");
+		testUtil.log.info("Login button ---> is present on the Login page");
 		return elementUtil.isElementPresent(btnLogin);
 	}
 	
 	public boolean signUpLinkIsDisplayed() {
-		testUtil.log.info("Sign up link is present on the Login page");
+		testUtil.log.info("Sign up link ---> is present on the Login page");
 		return elementUtil.isElementPresent(signUpLink);
 	}
 	
 	public boolean showPassowordLinkIsDisplayed() {
-		testUtil.log.info("Show password link is present on the Login page");
+		testUtil.log.info("Show password link ---> is present on the Login page");
 		return elementUtil.isElementPresent(showPasswordLink);
 	}
 	
 	public boolean forgotMyPasswordLinkIsDisplayed() {
-		testUtil.log.info("Forgot Mypassword link is present on the Login page");
+		testUtil.log.info("Forgot Mypassword link ---> is present on the Login page");
 		return elementUtil.isElementPresent(forgotMypasswordLink);
 	}
 	

@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="smokeTest" duration-ms="34523" started-at="2020-08-10T10:07:12Z" finished-at="2020-08-10T10:07:46Z">
+  <suite name="Default suite" duration-ms="24452" started-at="2020-08-11T10:38:55Z" finished-at="2020-08-11T10:39:20Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="34523" started-at="2020-08-10T10:07:12Z" finished-at="2020-08-10T10:07:46Z">
+    <test name="Default test" duration-ms="24452" started-at="2020-08-11T10:38:55Z" finished-at="2020-08-11T10:39:20Z">
       <class name="com.qa.freecrm.tests.TC_VerifyLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@271053e1]" name="setUp" is-config="true" duration-ms="23642" started-at="2020-08-10T10:07:12Z" finished-at="2020-08-10T10:07:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="setUp" is-config="true" duration-ms="11299" started-at="2020-08-11T10:38:55Z" finished-at="2020-08-11T10:39:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginFieldsDisplayed()[pri:1, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@271053e1]" name="verifyLoginFieldsDisplayed" duration-ms="8134" started-at="2020-08-10T10:07:36Z" finished-at="2020-08-10T10:07:44Z">
+        <test-method status="PASS" signature="verifyLoginFieldsDisplayed()[pri:1, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="verifyLoginFieldsDisplayed" duration-ms="9795" started-at="2020-08-11T10:39:07Z" finished-at="2020-08-11T10:39:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFieldsDisplayed -->
-        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:2, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@271053e1]" name="verifyLoginPageTitle" duration-ms="16" started-at="2020-08-10T10:07:44Z" finished-at="2020-08-10T10:07:44Z">
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:2, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="verifyLoginPageTitle" duration-ms="19" started-at="2020-08-11T10:39:17Z" finished-at="2020-08-11T10:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@271053e1]" name="verifyLogin" duration-ms="1318" started-at="2020-08-10T10:07:44Z" finished-at="2020-08-10T10:07:45Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="verifyLogin" duration-ms="1069" started-at="2020-08-11T10:39:17Z" finished-at="2020-08-11T10:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@271053e1]" name="tearDown" is-config="true" duration-ms="1265" started-at="2020-08-10T10:07:45Z" finished-at="2020-08-10T10:07:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="tearDown" is-config="true" duration-ms="1707" started-at="2020-08-11T10:39:18Z" finished-at="2020-08-11T10:39:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.freecrm.tests.TC_VerifyLoginTest -->
-    </test> <!-- Login Test -->
-  </suite> <!-- smokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
