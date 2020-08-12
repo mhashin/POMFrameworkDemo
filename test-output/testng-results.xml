@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24452" started-at="2020-08-11T10:38:55Z" finished-at="2020-08-11T10:39:20Z">
+  <suite name="Default suite" duration-ms="57259" started-at="2020-08-12T10:52:26Z" finished-at="2020-08-12T10:53:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24452" started-at="2020-08-11T10:38:55Z" finished-at="2020-08-11T10:39:20Z">
-      <class name="com.qa.freecrm.tests.TC_VerifyLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="setUp" is-config="true" duration-ms="11299" started-at="2020-08-11T10:38:55Z" finished-at="2020-08-11T10:39:07Z">
+    <test name="Default test" duration-ms="57259" started-at="2020-08-12T10:52:26Z" finished-at="2020-08-12T10:53:23Z">
+      <class name="com.qa.freecrm.tests.TC_CreateNewContactTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.freecrm.tests.TC_CreateNewContactTest@56a6d5a6]" name="setUp" is-config="true" duration-ms="11253" started-at="2020-08-12T10:52:26Z" finished-at="2020-08-12T10:52:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginFieldsDisplayed()[pri:1, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="verifyLoginFieldsDisplayed" duration-ms="9795" started-at="2020-08-11T10:39:07Z" finished-at="2020-08-11T10:39:16Z">
+        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.freecrm.tests.TC_CreateNewContactTest@56a6d5a6]" name="verifyCreateContactTest" duration-ms="14563" started-at="2020-08-12T10:52:38Z" data-provider="create record" finished-at="2020-08-12T10:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1@hubspot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginFieldsDisplayed -->
-        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:2, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="verifyLoginPageTitle" duration-ms="19" started-at="2020-08-11T10:39:17Z" finished-at="2020-08-11T10:39:17Z">
+        </test-method> <!-- verifyCreateContactTest -->
+        <test-method status="PASS" signature="verifyContactisDisplayedInTableList(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.freecrm.tests.TC_CreateNewContactTest@56a6d5a6]" name="verifyContactisDisplayedInTableList" duration-ms="31038" started-at="2020-08-12T10:52:52Z" data-provider="create record" finished-at="2020-08-12T10:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1@hubspot.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="verifyLogin" duration-ms="1069" started-at="2020-08-11T10:39:17Z" finished-at="2020-08-11T10:39:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@309e345f]" name="tearDown" is-config="true" duration-ms="1707" started-at="2020-08-11T10:39:18Z" finished-at="2020-08-11T10:39:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.freecrm.tests.TC_VerifyLoginTest -->
+        </test-method> <!-- verifyContactisDisplayedInTableList -->
+      </class> <!-- com.qa.freecrm.tests.TC_CreateNewContactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -61,3 +61,74 @@
 08-11-2020 16:09:17 TC_VerifyLoginTest.java INFO  [main] 41 - Test case is started ---> verifyLogin
 08-11-2020 16:09:17 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
 08-11-2020 16:09:18 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 13:33:44 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 13:33:50 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 13:33:52 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 13:34:04 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 13:34:05 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 13:36:18 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 13:36:24 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 13:36:26 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 13:36:39 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 13:36:40 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 13:47:45 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 13:47:52 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 13:47:58 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 13:48:11 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 13:48:12 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 15:51:26 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 15:51:35 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 15:51:42 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 15:53:33 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 15:53:40 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 15:53:47 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 15:59:48 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 15:59:54 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 15:59:59 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:01:01 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:01:13 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:01:32 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:02:05 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:02:06 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:03:48 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:03:54 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:03:57 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:04:15 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:04:16 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:06:05 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:06:10 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:06:18 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:07:21 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:07:26 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:07:44 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:10:46 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:10:51 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:10:54 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:11:14 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:11:15 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:11:50 ContactPage.java INFO  [main] 38 - click on create contact button
+08-12-2020 16:11:54 ContactPage.java INFO  [main] 44 - Enter email --->testUser1@hubspot.com
+08-12-2020 16:11:55 ContactPage.java INFO  [main] 49 - Enter firstName --->test
+08-12-2020 16:11:56 ContactPage.java INFO  [main] 54 - Enter lastName --->User1
+08-12-2020 16:11:56 ContactPage.java INFO  [main] 59 - Save the contact
+08-12-2020 16:13:10 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:13:18 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:13:21 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:13:37 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:13:38 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:17:17 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:17:22 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:17:25 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:17:39 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:17:40 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:21:18 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:21:23 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:21:27 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:21:41 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:21:42 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:22:26 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-12-2020 16:22:34 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-12-2020 16:22:37 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-12-2020 16:22:51 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-12-2020 16:22:52 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-12-2020 16:23:23 ContactPage.java INFO  [main] 65 - Record is displayed in the listtestuser1@hubspot.com
