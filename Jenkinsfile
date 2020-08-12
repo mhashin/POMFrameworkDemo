@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Prod') {
+      steps {
+        sh 'echo "run on prod"'
+      }
+    }
+
   }
 }
