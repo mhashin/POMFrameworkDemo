@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Release') {
       parallel {
-        stage('Release') {
+        stage('Build') {
           steps {
             echo 'run on Release'
           }
