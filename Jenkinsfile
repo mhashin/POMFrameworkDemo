@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Release') {
       steps {
-        'echo "run on Release"'
+        echo "run on Release"
         }
     }
 
