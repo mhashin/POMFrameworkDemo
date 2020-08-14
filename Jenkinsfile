@@ -11,7 +11,7 @@ pipeline {
 
         stage('run on release') {
           steps {
-            echo 'run on release'
+            sh 'echo "run on release"'
           }
         }
 
