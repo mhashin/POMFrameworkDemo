@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('run on release') {
           steps {
             echo 'run on release'
           }
