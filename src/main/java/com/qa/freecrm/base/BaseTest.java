@@ -25,9 +25,10 @@ public class BaseTest  {
 		
 	}
 	
-	/*@AfterTest
+	@AfterTest
 	public void tearDown() {
+		testUtil.log.info("Quitting the browser....");
 		driver.quit();
-	}*/
+	}
 
 }

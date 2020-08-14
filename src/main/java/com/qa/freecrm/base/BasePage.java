@@ -5,10 +5,18 @@ package com.qa.freecrm.base;
  */
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
+
+import com.aventstack.extentreports.ExtentTest;
 import com.qa.freecrm.util.Constants;
 import com.qa.freecrm.util.TestUtil;
 
@@ -21,7 +29,7 @@ public class BasePage {
 	public TestUtil testUtil = new TestUtil();
 	
 	public static ThreadLocal<WebDriver> td=new ThreadLocal<WebDriver>();
-	
+	public static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
 	/**
 	 * this method is used to initialize driver
 	 * @param prop
@@ -68,5 +76,18 @@ public class BasePage {
 		return prop;
 	}
 	
+	//take screenshot:
+			public String getScreenshot(ITestResult result){
+				File src  = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+				String path = System.getProperty("user.dir")+"/screenshots/Screenshot_"+result.getName()+TestUtil.getCurrentDate()+".png";
+				File destination = new File(path);
+				try {
+					FileUtils.copyFile(src, destination);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				return path;
+			}
+
 	
 }

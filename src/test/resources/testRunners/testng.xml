@@ -4,6 +4,7 @@
 
 <listeners>
 <listener class-name="com.qa.freecrm.listeners.TestAllureListener"></listener>
+<listener class-name="com.qa.freecrm.listeners.ExtentReportListener"></listener>
 </listeners>
   <test name="Login Test">
     <classes>

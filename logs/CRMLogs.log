@@ -132,3 +132,18 @@
 08-12-2020 16:22:51 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
 08-12-2020 16:22:52 LoginPage.java INFO  [main] 45 - Logged in successfully
 08-12-2020 16:23:23 ContactPage.java INFO  [main] 65 - Record is displayed in the listtestuser1@hubspot.com
+08-14-2020 12:08:45 BasePage.java INFO  [main] 67 - Loading the config properties --->
+08-14-2020 12:08:50 BasePage.java INFO  [main] 36 - Launching the browser --->chrome
+08-14-2020 12:08:53 BasePage.java INFO  [main] 40 - Naviagting to url --->https://app.hubspot.com/login
+08-14-2020 12:08:53 TC_VerifyLoginTest.java INFO  [main] 22 - Test case is started ---> verifyLoginFieldsDisplayed
+08-14-2020 12:09:06 LoginPage.java INFO  [main] 57 - Email address field ---> is present on the Login page
+08-14-2020 12:09:06 LoginPage.java INFO  [main] 63 - Password field ---> is present on the Login page
+08-14-2020 12:09:07 LoginPage.java INFO  [main] 69 - Login button ---> is present on the Login page
+08-14-2020 12:09:07 LoginPage.java INFO  [main] 74 - Sign up link ---> is present on the Login page
+08-14-2020 12:09:07 LoginPage.java INFO  [main] 84 - Forgot Mypassword link ---> is present on the Login page
+08-14-2020 12:09:07 LoginPage.java INFO  [main] 79 - Show password link ---> is present on the Login page
+08-14-2020 12:09:07 TC_VerifyLoginTest.java INFO  [main] 33 - Test case is started ---> verifyLoginPageTitle
+08-14-2020 12:09:07 TC_VerifyLoginTest.java INFO  [main] 36 - The login page title is verified --->HubSpot Login
+08-14-2020 12:09:07 TC_VerifyLoginTest.java INFO  [main] 41 - Test case is started ---> verifyLogin
+08-14-2020 12:09:07 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
+08-14-2020 12:09:09 LoginPage.java INFO  [main] 45 - Logged in successfully

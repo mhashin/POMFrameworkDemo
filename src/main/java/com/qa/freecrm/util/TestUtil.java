@@ -1,4 +1,5 @@
 package com.qa.freecrm.util;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -31,6 +32,13 @@ public class TestUtil {
 			
 			Actions act=new Actions(driver);
 			act.moveToElement(driver.findElement(locator)).click().perform();
+			
+		}
+		
+		public static String getCurrentDate() {
+			DateFormat customFormat=new SimpleDateFormat("MM_dd_yyyy_hh_mm_ss");
+			Date currentDate=new Date();
+			return customFormat.format(currentDate);
 			
 		}
 }
