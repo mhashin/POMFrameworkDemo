@@ -5,13 +5,15 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            echo 'run on Release'
+            echo "Build is Started"
+            bat "mvn clean install skipTests=true"
+            echo "Build is Successful"
           }
         }
 
         stage('run on release') {
           steps {
-            sh 'echo "run on release"'
+            bat "mvn test -Denv=release"
           }
         }
 
