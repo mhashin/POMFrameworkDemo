@@ -147,3 +147,17 @@
 08-14-2020 12:09:07 TC_VerifyLoginTest.java INFO  [main] 41 - Test case is started ---> verifyLogin
 08-14-2020 12:09:07 LoginPage.java INFO  [main] 41 - Log in with the credentials --->muhammedhashin16@gmail.com & Seleniumtesting2020
 08-14-2020 12:09:09 LoginPage.java INFO  [main] 45 - Logged in successfully
+08-14-2020 20:36:05 ExtentReportListener.java INFO  [main] 59 - Test Suite started!
+08-14-2020 20:36:05 ExtentReportListener.java INFO  [main] 63 - Test Suite is ending!
+08-14-2020 20:36:50 ExtentReportListener.java INFO  [main] 59 - Test Suite started!
+08-14-2020 20:36:50 BasePage.java INFO  [main] 89 - Loading the config properties --->
+08-14-2020 20:36:55 BasePage.java INFO  [main] 57 - Launching the browser --->chrome
+08-14-2020 20:36:56 ExtentReportListener.java INFO  [main] 63 - Test Suite is ending!
+08-14-2020 20:44:50 ExtentReportListener.java INFO  [main] 59 - Test Suite started!
+08-14-2020 20:44:50 BasePage.java INFO  [main] 88 - Loading the config properties --->
+08-14-2020 20:44:58 BasePage.java INFO  [main] 53 - Launching the browser --->chrome
+08-14-2020 20:45:32 BasePage.java INFO  [main] 57 - Naviagting to url --->https://app.hubspot.com/login
+08-14-2020 20:45:32 ExtentReportListener.java INFO  [main] 75 - verifyLoginFieldsDisplayed started!
+08-14-2020 20:45:32 TC_VerifyLoginTest.java INFO  [main] 22 - Test case is started ---> verifyLoginFieldsDisplayed
+08-14-2020 20:46:30 BaseTest.java INFO  [main] 34 - Quitting the browser....
+08-14-2020 20:46:31 ExtentReportListener.java INFO  [main] 63 - Test Suite is ending!

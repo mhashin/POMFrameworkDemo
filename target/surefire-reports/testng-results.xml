@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smokeTest" duration-ms="21817" started-at="2020-08-25T11:10:42Z" finished-at="2020-08-25T11:11:04Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="21817" started-at="2020-08-25T11:10:42Z" finished-at="2020-08-25T11:11:04Z">
+      <class name="com.qa.freecrm.tests.TC_VerifyLoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@7ee55e70]" name="setUp" is-config="true" duration-ms="9784" started-at="2020-08-25T11:10:42Z" finished-at="2020-08-25T11:10:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginFieldsDisplayed()[pri:1, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@7ee55e70]" name="verifyLoginFieldsDisplayed" duration-ms="8891" started-at="2020-08-25T11:10:52Z" finished-at="2020-08-25T11:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFieldsDisplayed -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:2, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@7ee55e70]" name="verifyLoginPageTitle" duration-ms="19" started-at="2020-08-25T11:11:01Z" finished-at="2020-08-25T11:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@7ee55e70]" name="verifyLogin" duration-ms="1187" started-at="2020-08-25T11:11:01Z" finished-at="2020-08-25T11:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.freecrm.tests.TC_VerifyLoginTest@7ee55e70]" name="tearDown" is-config="true" duration-ms="1135" started-at="2020-08-25T11:11:03Z" finished-at="2020-08-25T11:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.freecrm.tests.TC_VerifyLoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- smokeTest -->
+</testng-results>
