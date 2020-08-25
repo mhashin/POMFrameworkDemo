@@ -3,7 +3,7 @@
 <suite name="smokeTest" verbose="2">
 
 <listeners>
-<listener class-name="com.qa.freecrm.listeners.TestAllureListener"></listener>
+<!-- <listener class-name="com.qa.freecrm.listeners.TestAllureListener"></listener> -->
 <listener class-name="com.qa.freecrm.listeners.ExtentReportListener"></listener>
 </listeners>
   <test name="Login Test">
