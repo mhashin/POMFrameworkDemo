@@ -18,7 +18,7 @@ public class HomePage extends BasePage {
 	
 	//locators
 	
-    By contactsLink=By.linkText("Contacts");
+    By loginLink=By.xpath("//*[text()=' Login or Create Account']");
     By contactsSubmenu=By.xpath("(//a[@id='nav-secondary-contacts'])[1]");
     
 	
@@ -28,12 +28,20 @@ public class HomePage extends BasePage {
 		elementUtil=new ElementUtil(this.driver);
 	}
 	
-	public ContactPage goToCreateContactPage() {
+	/*public ContactPage goToCreateContactPage() {
 		elementUtil.waitForElementToBeVisible(contactsLink);
 		elementUtil.doClick(contactsLink);
 		TestUtil.clickByActions(driver, contactsSubmenu);
 		return new ContactPage(driver);
 	}
+	*/
 	
+	public void doLogin() {
+		elementUtil.doClick(loginLink);
+	}
+	
+	public String verifyPageTitle() {
+		return elementUtil.getPageTitle();
+	}
 
 }
