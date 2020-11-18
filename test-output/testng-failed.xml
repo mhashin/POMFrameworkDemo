@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [smokeTest]">
-  <listeners>
-    <listener class-name="com.qa.freecrm.listeners.ExtentReportListener"/>
-  </listeners>
-  <test thread-count="5" verbose="2" name="Login Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.yatra.com/"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.freecrm.tests.TC_LoginTest">
+      <class name="com.qa.freecrm.tests.TC_02_create_contact">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyLogin"/>
           <include name="setUp"/>
+          <include name="verifyCreateNewContact"/>
         </methods>
-      </class> <!-- com.qa.freecrm.tests.TC_LoginTest -->
+      </class> <!-- com.qa.freecrm.tests.TC_02_create_contact -->
     </classes>
-  </test> <!-- Login Test(failed) -->
-</suite> <!-- Failed suite [smokeTest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

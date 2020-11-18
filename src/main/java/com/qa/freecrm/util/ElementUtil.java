@@ -14,7 +14,7 @@ public class ElementUtil {
 	private WebDriver driver;
 	
 	public ElementUtil(WebDriver driver) {
-		this.driver=driver;
+		this.driver=driver; 
 	}
 	/**
 	 * method to create the webelement on passing the locator
@@ -74,4 +74,10 @@ public class ElementUtil {
 		WebDriverWait wait=new WebDriverWait(driver, Constants.EXPLICIT_WAIT);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
+	
+	public void isContactDisplayed(String contact) {
+		driver.findElement(By.xpath("//td[text()='"+contact+"']"));
+	}
+	
+
 }

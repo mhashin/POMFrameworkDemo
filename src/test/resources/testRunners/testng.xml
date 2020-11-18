@@ -8,9 +8,9 @@
 </listeners>
   <test name="Login Test">
   <parameter name="browser" value="chrome"/>
-  <parameter name="url" value="https://www.yatra.com/"/>
-    <classes>
-      <class name="com.qa.freecrm.tests.TC_LoginTest"/>
+  <parameter name="url" value="https://ui.cogmento.com/"/>
+    <classes>	
+      <class name="com.qa.freecrm.tests.TC_02_create_contact"/>
     </classes>
   </test> <!-- smokeTest -->
 </suite> <!-- Suite -->

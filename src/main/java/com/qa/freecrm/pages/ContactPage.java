@@ -17,56 +17,50 @@ import com.qa.freecrm.util.ElementUtil;
 public class ContactPage extends BasePage {
 
 	private WebDriver driver;
-	ElementUtil elementUtil;
+	ElementUtil eleutil;
 	
-	By btnCreateContact=By.xpath("//button//span[text()='Create contact']");
-	By txtEmail=By.name("textInput");
-	By txtFirstName=By.cssSelector("input[data-field='firstname']");
-	By txtLasttName=By.cssSelector("input[data-field='lastname']");//button/span[text()='Create contact']
-	By btnCreateContact_createContact=By.xpath("//button/span[text()='Create contact']");
-	By customerTable=By.cssSelector("div[class^=CustomerDataTable]");
+	By btn_createContactNew=By.xpath("//a[@href='/contacts/new']");
+	By txt_firstName=By.name("first_name");
+	By txt_last_Name=By.name("last_name");
+	By btn_save=By.xpath("//button[text()='Save']");
+    By chkbox_contact=By.xpath("//td[text()='Test user01']/ancestor::tr/descendant::div[@class='ui fitted read-only checkbox']");
+	By chkbox_contact1=By.xpath("//td[text()='Test user02']/ancestor::tr/descendant::div[@class='ui fitted read-only checkbox']");
+	
 
 	public ContactPage(WebDriver driver) {
 		this.driver=driver;
-		elementUtil=new ElementUtil(this.driver);
+		eleutil=new ElementUtil(this.driver);
 	}
 	
 	
 	
-	public void clickCreateContact() {
-		elementUtil.waitForElementToBeVisible(btnCreateContact);
+	public void clickNew() {
+		eleutil.waitForElementToBeVisible(btn_createContactNew);
 		testUtil.log.info("click on create contact button");
-		elementUtil.doClick(btnCreateContact);
+		eleutil.doClick(btn_createContactNew);
 	}
 	
-	public void enterEmail(String email) {
-		elementUtil.waitForElementToBeVisible(txtEmail);
-		testUtil.log.info("Enter email --->"+email);
-		elementUtil.doSendKeys(txtEmail, email);
+	public void enterFirstName(String fName) {
+		eleutil.waitForElementToBeVisible(txt_firstName);
+		eleutil.doSendKeys(txt_firstName, fName);
 	}
 	
-	public void enterFirstName(String firstName) {
-		testUtil.log.info("Enter firstName --->"+firstName);
-		elementUtil.doSendKeys(txtFirstName, firstName);
+	
+	public void enterLastName(String lName) {
+		eleutil.doSendKeys(txt_last_Name, lName);
 	}
 	
-	public void enterLastName(String lastName) {
-		testUtil.log.info("Enter lastName --->"+lastName);
-		elementUtil.doSendKeys(txtLasttName,lastName);
+	public void clickSave() {
+		eleutil.doClick(btn_save);
 	}
 	
-	public void saveContact() {
-		testUtil.log.info("Save the contact");
-		elementUtil.doClick(btnCreateContact_createContact);
+	public void chekbox() {
+		eleutil.waitForElementToBeVisible(chkbox_contact);
+		eleutil.doClick(chkbox_contact);
+		eleutil.doClick(chkbox_contact1);
 	}
 	
-	public boolean isContactDisplayed(String email) {
-		WebElement element =driver.findElement(By.xpath("//a[text()='"+email+"']"));
-		testUtil.log.info("Record is displayed in the list"+email);
-		return element.isDisplayed();
-	}
-	
-	public void waitForTabelIsDisplayed() {
-		elementUtil.waitForElementToBeVisible(customerTable);
+	public void verifyContactIsCreated(String contact) {
+		eleutil.isContactDisplayed(contact);
 	}
 }

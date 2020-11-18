@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-smokeTest">
-                    <span>C:\Users\muhammed.hashin\eclipse-workspace\BookigSiteDemo\src\test\resources\testRunners\testng.xml</span>
+                    <span>C:\Users\muhammed.hashin\eclipse-workspace\FreeCRMDemo\src\test\resources\testRunners\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-smokeTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="com.qa.freecrm.tests.TC_LoginTest" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeTest" title="com.qa.freecrm.tests.TC_02_create_contact" hash-for-method="verifyCreateNewContact(Test, Userten)">verifyCreateNewContact(Test, Userten)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-smokeTest -->
@@ -120,14 +120,15 @@
           <div class="suite-smokeTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.freecrm.tests.TC_LoginTest</span>
+              <span class="class-name">com.qa.freecrm.tests.TC_02_create_contact</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLogin">
-                  </a> <!-- verifyLogin -->
-                  <span class="method-name">verifyLogin</span>
+                  <a name="verifyCreateNewContact(Test, Userten)">
+                  </a> <!-- verifyCreateNewContact(Test, Userten) -->
+                  <span class="method-name">verifyCreateNewContact</span>
+                  <span class="parameters">(Test, Userten)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +136,7 @@
         </div> <!-- panel smokeTest -->
         <div panel-name="test-xml-smokeTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\muhammed.hashin\eclipse-workspace\BookigSiteDemo\src\test\resources\testRunners\testng.xml</span>
+            <span class="header-content">C:\Users\muhammed.hashin\eclipse-workspace\FreeCRMDemo\src\test\resources\testRunners\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,9 +148,9 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Login Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.yatra.com/&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://ui.cogmento.com/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.freecrm.tests.TC_LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.freecrm.tests.TC_02_create_contact&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Test --&gt;
 &lt;/suite&gt; &lt;!-- smokeTest --&gt;
@@ -191,14 +192,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLogin')
-data.setCell(0, 2, 'com.qa.freecrm.tests.TC_LoginTest')
-data.setCell(0, 3, 933);
+data.setCell(0, 1, 'verifyCreateNewContact')
+data.setCell(0, 2, 'com.qa.freecrm.tests.TC_02_create_contact')
+data.setCell(0, 3, 10070);
 window.suiteTableData['smokeTest']= { tableData: data, tableDiv: 'times-div-smokeTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 933 ms</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-smokeTest">
               </div> <!-- times-div-smokeTest -->
             </div> <!-- times-div -->
@@ -224,19 +225,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.freecrm.tests.TC_LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.freecrm.tests.TC_02_create_contact</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUp(chrome, https://www.yatra.com/)</span>
+                <span class="method-name">setUp(chrome, https://ui.cogmento.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyLogin</span>
-                <span class="method-start">10912 ms</span>
+                <span class="method-name">verifyCreateNewContact(Test, Userten)</span>
+                <span class="method-start">43989 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12255 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

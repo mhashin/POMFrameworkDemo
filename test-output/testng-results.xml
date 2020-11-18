@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="smokeTest" duration-ms="13287" started-at="2020-10-20T16:08:52Z" finished-at="2020-10-20T16:09:05Z">
+  <suite name="smokeTest" duration-ms="54301" started-at="2020-11-18T14:07:31Z" finished-at="2020-11-18T14:08:25Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="13287" started-at="2020-10-20T16:08:52Z" finished-at="2020-10-20T16:09:05Z">
-      <class name="com.qa.freecrm.tests.TC_LoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.freecrm.tests.TC_LoginTest@74e52303]" name="setUp" is-config="true" duration-ms="10878" started-at="2020-10-20T16:08:52Z" finished-at="2020-10-20T16:09:03Z">
+    <test name="Login Test" duration-ms="54301" started-at="2020-11-18T14:07:31Z" finished-at="2020-11-18T14:08:25Z">
+      <class name="com.qa.freecrm.tests.TC_02_create_contact">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.freecrm.tests.TC_02_create_contact@1a482e36]" name="setUp" is-config="true" duration-ms="42755" started-at="2020-11-18T14:07:31Z" finished-at="2020-11-18T14:08:13Z">
           <params>
             <param index="0">
               <value>
@@ -16,22 +16,30 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://www.yatra.com/]]>
+                <![CDATA[https://ui.cogmento.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.qa.freecrm.tests.TC_LoginTest@74e52303]" name="verifyLogin" duration-ms="933" started-at="2020-10-20T16:09:03Z" finished-at="2020-10-20T16:09:04Z">
+        <test-method status="PASS" signature="verifyCreateNewContact(java.lang.String, java.lang.String)[pri:0, instance:com.qa.freecrm.tests.TC_02_create_contact@1a482e36]" name="verifyCreateNewContact" duration-ms="10070" started-at="2020-11-18T14:08:15Z" data-provider="createContact" finished-at="2020-11-18T14:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Userten]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.freecrm.tests.TC_LoginTest@74e52303]" name="tearDown" is-config="true" duration-ms="1012" started-at="2020-10-20T16:09:04Z" finished-at="2020-10-20T16:09:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.freecrm.tests.TC_LoginTest -->
+        </test-method> <!-- verifyCreateNewContact -->
+      </class> <!-- com.qa.freecrm.tests.TC_02_create_contact -->
     </test> <!-- Login Test -->
   </suite> <!-- smokeTest -->
 </testng-results>

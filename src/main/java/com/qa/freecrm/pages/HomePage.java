@@ -14,18 +14,18 @@ import com.qa.freecrm.util.TestUtil;
 public class HomePage extends BasePage {
 	
 	private WebDriver driver;
-	ElementUtil elementUtil;
+	ElementUtil eleutil;
 	
 	//locators
 	
-    By loginLink=By.xpath("//*[text()=' Login or Create Account']");
-    By contactsSubmenu=By.xpath("(//a[@id='nav-secondary-contacts'])[1]");
+    By usernameText=By.xpath("//div[@id='top-header-menu']/child::div[@class='right menu']/descendant::span[text()='Hashin PK']");
+    By contactsNavlink=By.xpath("//a[@class='item']/child::span[text()='Contacts']");
     
 	
 	//constructor of home page
 	public HomePage(WebDriver driver) {
 		this.driver=driver;
-		elementUtil=new ElementUtil(this.driver);
+		eleutil=new ElementUtil(this.driver); 
 	}
 	
 	/*public ContactPage goToCreateContactPage() {
@@ -36,12 +36,20 @@ public class HomePage extends BasePage {
 	}
 	*/
 	
-	public void doLogin() {
-		elementUtil.doClick(loginLink);
+	public String verifyUserNameText() {
+		eleutil.waitForElementToBeVisible(usernameText);
+		return eleutil.getText(usernameText);
+		
 	}
 	
+	public void clickContactsLink() {
+		eleutil.waitForElementToBeVisible(contactsNavlink);
+		eleutil.doClick(contactsNavlink);
+	}
+	
+	
 	public String verifyPageTitle() {
-		return elementUtil.getPageTitle();
+		return eleutil.getPageTitle();
 	}
 
 }
